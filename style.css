@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'fonte-desejada';
+    src: url(font/Just\ Breathe.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte-encomenda-p';
+    src: url(font/LEMONMILK-RegularItalic.otf);
+}
+
+body {
+    background-color: #e8f0f3;
+}
+ 
+h1{
+    text-align: center;
+    font-family: 'fonte-desejada';
+    margin-top: 2%;
+}
+
+#container-bolo-decorado, h5{
+    text-align: center;
+    font-family: 'fonte-desejada';
+}
+
+#container-encomenda, p{
+    text-align: center;
+    font-family: 'fonte-encomenda-p';
+}
+
+.text-pink {
+    color: #FFC0CB !important; /* Esta é a cor rosa clássica. Você pode usar qualquer tom de rosa que preferir. */
+}
+
+#container-docinhos, docinhospt1{
+    font-family: 'fonte-encomenda-p';
+}
+
+.button {
+    font-family: 'fonte-encomenda-p';
+}
+
+#chamar-wpp {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
