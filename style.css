@@ -7,6 +7,11 @@
     font-family: 'fonte-encomenda-p';
     src: url(font/LEMONMILK-RegularItalic.otf);
 }
+
+body {
+    background-color: #e8f0f3;
+}
+ 
 h1{
     text-align: center;
     font-family: 'fonte-desejada';
@@ -33,4 +38,20 @@ h1{
 
 .button {
     font-family: 'fonte-encomenda-p';
+}
+
+#chamar-wpp {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
 }
