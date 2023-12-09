@@ -70,6 +70,61 @@ form {
     display: flex;
     flex-direction: column;
   }
+
+
+
+
+
+
+  /* Estilos para telas menores que 576px (como celulares em modo retrato) */
+@media (max-width: 575.98px) {
+    h1 {
+      font-size: 24px; /* Reduzir o tamanho do título principal */
+    }
+  
+    .figure img {
+      width: 100%; /* Tornar a imagem do banner ocupando 100% da largura */
+    }
+  
+    .container-fluid {
+      padding: 0; /* Reduzir o padding do container */
+    }
+  
+    .col-3 {
+      flex: 0 0 100%; /* Fazer as colunas ocuparem 100% da largura */
+      max-width: 100%; /* Garantir que as colunas ocupem toda a largura disponível */
+      margin-bottom: 20px; /* Adicionar um espaço entre as colunas */
+    }
+  }
+  
+  /* Estilos para telas maiores que 576px (dispositivos maiores que celulares em modo retrato) */
+  @media (min-width: 576px) {
+  }
+
+  /* Estilos para dispositivos Android com largura de tela até 360px */
+@media only screen and (max-width: 360px) {
+    /* Seus estilos para dispositivos Android menores aqui */
+  }
+  
+  /* Estilos para iPhones com largura de tela até 375px (iPhone 6/7/8, SE) */
+  @media only screen and (max-width: 375px) {
+    /* Seus estilos para iPhones menores aqui */
+  }
+  
+  /* Estilos para iPhones com largura de tela até 414px (iPhone 6/7/8 Plus, X, XS, 11 Pro, 12 Mini) */
+  @media only screen and (max-width: 414px) {
+    /* Seus estilos para iPhones maiores aqui */
+  }
+  
+  /* Estilos para iPhones com largura de tela até 768px (iPad no modo paisagem) */
+  @media only screen and (max-width: 768px) {
+    /* Seus estilos para iPads ou iPhones maiores (no modo paisagem) aqui */
+  }
+  
+  /* Estilos para iPads com largura de tela até 1024px (iPad no modo retrato) */
+  @media only screen and (max-width: 1024px) {
+    /* Seus estilos para iPads maiores (no modo retrato) aqui */
+  }
   
 
   
