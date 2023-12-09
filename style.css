@@ -18,6 +18,12 @@ h1{
     margin-top: 2%;
 }
 
+.full-height-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
 #container-bolo-decorado, h5{
     text-align: center;
     font-family: 'fonte-desejada';
@@ -71,18 +77,27 @@ form {
     flex-direction: column;
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 767.98px) {
-  .banner-img {
-    width: 100%; /* Define a largura da imagem como 100% para ocupar toda a largura do contêiner */
-    height: auto; /* Mantém a proporção original da imagem */
-    display: block; /* Garante que a imagem ocupe toda a largura disponível */
+    .banner-img {
+      width: 100%; /* Define a largura da imagem como 100% para ocupar toda a largura do contêiner */
+      height: auto; /* Mantém a proporção original da imagem */
+      display: block; /* Garante que a imagem ocupe toda a largura disponível */
+    }
   }
-}
-
-
-
-
 
 /* Estilos para dispositivos móveis */
 @media (max-width: 767.98px) {
@@ -100,6 +115,29 @@ form {
       margin-bottom: 20px; /* Adicionar um espaço entre as colunas */
     }
   }
+
+  /* Estilos para dispositivos móveis */
+@media (max-width: 767.98px) {
+    .center-image {
+      display: block; /* Para centralizar a imagem */
+      margin-left: auto; /* Centraliza horizontalmente */
+      margin-right: auto; /* Centraliza horizontalmente */
+      max-width: 50%; /* Define a largura máxima da imagem em dispositivos menores */
+      height: auto; /* Mantém a proporção original da imagem */
+    }
+  }
+  
+  /* Estilos para telas maiores (notebooks, desktops, etc.) */
+  @media (min-width: 768px) {
+    .center-image {
+      display: block; /* Para centralizar a imagem */
+      margin-left: auto; /* Centraliza horizontalmente */
+      margin-right: auto; /* Centraliza horizontalmente */
+      max-width: 30%; /* Define a largura máxima da imagem em telas maiores */
+      height: auto; /* Mantém a proporção original da imagem */
+    }
+  }
+  
   
 
   
